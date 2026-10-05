@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(){
+   int x,y,temp=0;
+   printf("enter the value ofx and y");
+   scanf("%d%d",&x,&y);
+   printf("The value x is %d and value of y is %d,before swapping",x,y);
+   temp = x;
+   x= y;
+   y = temp;
+   printf("after swappimg, the value of x is %d and value of y is %d", x,y);
+   return 0;
+}
+
+
+
+
+
+    
+
