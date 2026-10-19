@@ -6,6 +6,7 @@ int main(){
     printf("enter a number :");
     scanf("%d",&x);
     x=x%2==0;
+    //0==0?
     printf("%d \n",x);
     return 0;
 }
